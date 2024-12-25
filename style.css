@@ -2,21 +2,24 @@ body {
     background-color: #eaeaea;
     font: 16px/28px Arial, sans-serif;
     color: #333;
+    background-image: url(img/45degreee_fabric.webp)
 }
 
 .container {
     width: 800px;
     margin: auto;
     background-color: white
+
 }
 
 .header {
     padding: 20px;
 }
 
-.header.judul {
+.header h1 {
     font-size: 48px;
     font-weight: bold;  
+    color: red;
 }
 
 .header ul li {
@@ -46,4 +49,29 @@ body {
 
 .content {
     padding: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.content .penulis {
+    font-size: 14px;
+    font-style: italic;
+    color: #999;
+    margin-top: -20px;
+}
+
+.penulis a {
+    text-decoration: none;
+    color:brown;
+}
+
+.footer {
+    padding: 3px;
+    background-color: brown;
+    color: white;
+    text-align: center;
 }
