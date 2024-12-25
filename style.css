@@ -16,25 +16,25 @@ body {
     padding: 20px;
 }
 
-.header h1 {
+.header .judul {
     font-size: 48px;
     font-weight: bold;  
     color: red;
 }
 
-.header ul li {
+.header  nav  {
     display: inline-block;
     margin-top: 20px;
     margin-right: 20px;
 }
 
-.header ul li a {
+.header nav a {
     text-decoration: none;
     color: red;
-    padding: 3px;
+    padding-right: 40px;
 }
 
-.header ul li a:hover {
+.header nav a:hover {
     color: brown;
 }
 
