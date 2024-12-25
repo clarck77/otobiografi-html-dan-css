@@ -1,0 +1,49 @@
+body {
+    background-color: #eaeaea;
+    font: 16px/28px Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white
+}
+
+.header {
+    padding: 20px;
+}
+
+.header.judul {
+    font-size: 48px;
+    font-weight: bold;  
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: red;
+    padding: 3px;
+}
+
+.header ul li a:hover {
+    color: brown;
+}
+
+.hero {
+    height: 250px;
+    background-image: url(img/bg.gif);
+    background-size: cover;
+    background-position: center; 
+    border-top: 5px solid red;
+    border-bottom: 5px solid brown;
+}
+
+.content {
+    padding: 20px;
+}
