@@ -8,8 +8,7 @@ body {
 .container {
     width: 960px;
     margin: auto;
-    background-color: white
-
+    background-color: white;
 }
 
 .header {
@@ -39,9 +38,9 @@ body {
 }
 
 .hero {
-    height: 350px;
+    height: 470px;
     background-image: url(img/bg.gif);
-    background-size: cover;
+    background-size: auto;
     background-position: center; 
     border-top: 5px solid red;
     border-bottom: 5px solid brown;
@@ -52,6 +51,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     float: left;
+    text-align: justify;
 }
 
 .main h2 {
@@ -76,8 +76,10 @@ body {
 .sidebar {
     width: 300px;
     padding: 20px;
+    text-align: justify;
     box-sizing: border-box;
     float: right;
+    
 }
 
 .sidebar h3 {
@@ -171,6 +173,6 @@ body {
  */
 
 .cf {
-    *zoom: 1;
+    zoom: 1;
 }
 /*untuk mengatasi float left crash*/
